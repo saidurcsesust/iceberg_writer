@@ -83,7 +83,8 @@ def main():
 
     # 8. Build final output
     final_output,_= build_final_output(matched_details)
-    
+    print("Final output schema:")
+    final_output.printSchema()
     # 19. Flush logs
     log("DONE", "Pipeline complete")
     flush_logs()

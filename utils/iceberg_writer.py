@@ -37,3 +37,43 @@ RENTAL_PROPERTY_SCHEMA = StructType([
     StructField("published",         BooleanType(), True),
     StructField("data_quality_flag", StringType(),  True),
 ])
+
+
+# ---------------------------------------------------------------------------
+# DDL helper
+# ---------------------------------------------------------------------------
+ 
+def _create_table_if_not_exists(spark):
+    """
+    Create the Iceberg rental_property table if it does not already exist.
+    Partitioned by country_code — best field for geo-based classification.
+    """
+    spark.sql(
+        f"CREATE DATABASE IF NOT EXISTS "
+        f"{config.ICEBERG_CATALOG}.{config.ICEBERG_DATABASE}"
+    )
+    spark.sql(f"""
+        CREATE TABLE IF NOT EXISTS {config.ICEBERG_PROPERTY_TABLE} (
+            id                STRING  NOT NULL,
+            feed_provider_id  STRING,
+            property_name     STRING,
+            property_slug     STRING,
+            country_code      STRING,
+            currency          STRING,
+            usd_price         DOUBLE,
+            star_rating       DOUBLE,
+            review_score      DOUBLE,
+            commission        DOUBLE,
+            meal_plan         STRING,
+            published         BOOLEAN,
+            data_quality_flag STRING
+        )
+        USING iceberg
+        PARTITIONED BY (country_code)
+        TBLPROPERTIES (
+            'write.format.default'            = 'parquet',
+            'write.parquet.compression-codec' = 'snappy'
+        )
+    """)
+    log("DDL", "rental_property Iceberg table ready",
+        table=config.ICEBERG_PROPERTY_TABLE)

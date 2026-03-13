@@ -29,6 +29,7 @@ logs/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # IDE settings
 .vscode/
@@ -44,4 +45,5 @@ Thumbs.db
 
 # Pipeline generated outputs
 data/output/
+data/iceberg_warehouse/
 validation_report.txt

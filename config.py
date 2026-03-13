@@ -27,6 +27,15 @@ OUTPUT_UNMATCHED_DIR   = "data/output/unmatched_details"
 VALIDATION_REPORT_PATH = "validation_report.txt"
 
 # ---------------------------------------------------------------------------
+# Iceberg configuration
+# ---------------------------------------------------------------------------
+ICEBERG_WAREHOUSE      = "data/iceberg_warehouse"
+ICEBERG_CATALOG        = "local"
+ICEBERG_DATABASE       = "property_db"
+ICEBERG_PROPERTY_TABLE = "local.property_db.rental_property"
+PARTITION_PROPERTY     = "country_code"
+
+# ---------------------------------------------------------------------------
 # Logging
 # ---------------------------------------------------------------------------
 LOG_BASE_DIR = "logs"

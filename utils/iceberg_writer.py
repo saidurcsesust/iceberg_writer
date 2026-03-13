@@ -94,3 +94,41 @@ def write_single_file(final_df):
     log("WRITE", "Single-file write starting", path=config.OUTPUT_FINAL_DIR)
     final_df.coalesce(1).write.mode("overwrite").parquet(config.OUTPUT_FINAL_DIR)
     log("WRITE", "Single-file write complete", path=config.OUTPUT_FINAL_DIR)
+
+
+# ---------------------------------------------------------------------------
+# 3. Partition-wise Iceberg write
+# ---------------------------------------------------------------------------
+ 
+def write_iceberg_partitioned(spark, final_df):
+    """
+    Write final_output to the Iceberg rental_property table,
+    partitioned by country_code.
+ 
+    Partition choice: country_code
+    - Low cardinality categorical field (US, GB, AE, etc.)
+    - Best for geo-based filtering and classification queries
+    - Already cleaned (trimmed + uppercased) in transforms.py
+ 
+    Parameters
+    ----------
+    spark    : Active SparkSession.
+    final_df : Final output DataFrame.
+    """
+    log("WRITE", "Iceberg partitioned write starting",
+        table=config.ICEBERG_PROPERTY_TABLE,
+        partition=config.PARTITION_PROPERTY)
+ 
+    # Enforce schema column order before writing
+    ordered_df = final_df.select(
+        [field.name for field in RENTAL_PROPERTY_SCHEMA.fields]
+    )
+ 
+    # Ensure table exists
+    _create_table_if_not_exists(spark)
+ 
+    # Write partitioned by country_code
+    ordered_df.writeTo(config.ICEBERG_PROPERTY_TABLE).overwritePartitions()
+ 
+    log("WRITE", "Iceberg partitioned write complete",
+        table=config.ICEBERG_PROPERTY_TABLE)

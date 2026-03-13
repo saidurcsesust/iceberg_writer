@@ -132,3 +132,25 @@ def write_iceberg_partitioned(spark, final_df):
  
     log("WRITE", "Iceberg partitioned write complete",
         table=config.ICEBERG_PROPERTY_TABLE)
+
+
+# ---------------------------------------------------------------------------
+# Main entry point called from main.py
+# ---------------------------------------------------------------------------
+ 
+def write_final_output(spark, final_df):
+    """
+    Orchestrate all writes for the final_output DataFrame:
+      1. Single-file Parquet write
+      2. Partition-wise Iceberg write (partitioned by country_code)
+ 
+    Parameters
+    ----------
+    spark    : Active SparkSession.
+    final_df : Final output DataFrame from build_final_output().
+    """
+    log("WRITE", "Writing final_output — starting all write steps")
+    write_single_file(final_df)
+    write_iceberg_partitioned(spark, final_df)
+    log("WRITE", "All final_output write steps complete")
+ 

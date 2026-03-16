@@ -25,10 +25,10 @@ Usage
   python main.py
 
   # Run a single step
-  python pipeline/rental_writer.py
-  python pipeline/reviews_writer.py
-  python pipeline/json_generator.py
-  python pipeline/property_joiner.py
+  python rental_writer.py
+  python reviews_writer.py
+  python json_generator.py
+  python property_joiner.py
 """
 
 import sys

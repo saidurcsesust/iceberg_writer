@@ -1,0 +1,43 @@
+{
+  "property_id": 12929721,
+  "gen_id": "GEN-12929721",
+  "property_name": "Vista Pines Retreat20016325",
+  "property_slug": "vista-pines-retreat20016325",
+  "country_code": "US",
+  "currency": "USD",
+  "star_rating": 3.0,
+  "review_score": 3.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 2,
+  "reviews": [
+    {
+      "review_id": 5199201776,
+      "review_date": "2025-08-19",
+      "review_year": 2025,
+      "score": 3.0,
+      "language": "en-us",
+      "summary": "sub par property and rental company",
+      "positive": "good location,",
+      "negative": "sub par property and Vacasa property management was not helpful in resolving the issues we encountered  We have rented in Northshore for over 20 years and this is the 1st time I have given a poor rating.",
+      "reviewer_name": "Barbara",
+      "reviewer_country": "us",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5199201776,
+      "review_date": "2025-08-19",
+      "review_year": 2025,
+      "score": 3.0,
+      "language": "en-us",
+      "summary": "sub par property and rental company",
+      "positive": "good location,",
+      "negative": "sub par property and Vacasa property management was not helpful in resolving the issues we encountered  We have rented in Northshore for over 20 years and this is the 1st time I have given a poor rating.",
+      "reviewer_name": "Barbara",
+      "reviewer_country": "us",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

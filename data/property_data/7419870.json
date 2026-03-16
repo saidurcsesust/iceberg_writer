@@ -1,0 +1,71 @@
+{
+  "property_id": 7419870,
+  "gen_id": "GEN-7419870",
+  "property_name": "Merlin 3 Waldstr 20 h-1804977",
+  "property_slug": "merlin-3-waldstr-20-h-1804977",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 9.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 4,
+  "reviews": [
+    {
+      "review_id": 5076412490,
+      "review_date": "2024-08-31",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "de",
+      "summary": null,
+      "positive": "Die Lage,sehr ruhig.\nDie Unterkunft.",
+      "negative": "Zu sehr einsehbar von der Straße aus,dadurch wenig Privatsphäre. \nEin weiterer Sichtschutz zum Nachbarn.",
+      "reviewer_name": "Heike und Thomas",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    },
+    {
+      "review_id": 3752095846,
+      "review_date": "2023-04-13",
+      "review_year": 2023,
+      "score": 8.0,
+      "language": "de",
+      "summary": "Es war sehr schön und wir Empfehlen es weiter.",
+      "positive": "Modern und gemütlich eingerichtet.",
+      "negative": "Zuwenig Fernsehprogramme freigeschaltet und keine Programm Liste.\nIm Schlafzimmer guter Sichtschutz aber keine Verdunklung möglich. \nViele Kaffee Tassen aber nur zwei  Pötte.",
+      "reviewer_name": "Martina",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    },
+    {
+      "review_id": 5076412490,
+      "review_date": "2024-08-31",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "de",
+      "summary": null,
+      "positive": "Die Lage,sehr ruhig.\nDie Unterkunft.",
+      "negative": "Zu sehr einsehbar von der Straße aus,dadurch wenig Privatsphäre. \nEin weiterer Sichtschutz zum Nachbarn.",
+      "reviewer_name": "Heike und Thomas",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    },
+    {
+      "review_id": 3752095846,
+      "review_date": "2023-04-13",
+      "review_year": 2023,
+      "score": 8.0,
+      "language": "de",
+      "summary": "Es war sehr schön und wir Empfehlen es weiter.",
+      "positive": "Modern und gemütlich eingerichtet.",
+      "negative": "Zuwenig Fernsehprogramme freigeschaltet und keine Programm Liste.\nIm Schlafzimmer guter Sichtschutz aber keine Verdunklung möglich. \nViele Kaffee Tassen aber nur zwei  Pötte.",
+      "reviewer_name": "Martina",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

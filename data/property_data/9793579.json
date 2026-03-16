@@ -1,0 +1,71 @@
+{
+  "property_id": 9793579,
+  "gen_id": "GEN-9793579",
+  "property_name": "Kaiserhof 96 Penthouse-1834843",
+  "property_slug": "kaiserhof-96-penthouse-1834843",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 5.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 4,
+  "reviews": [
+    {
+      "review_id": 2944361561,
+      "review_date": "2023-04-13",
+      "review_year": 2023,
+      "score": 5.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Petra",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5130469337,
+      "review_date": "2025-02-16",
+      "review_year": 2025,
+      "score": 5.0,
+      "language": "de",
+      "summary": "Das war nicht schön das Geld hätte ich sparen können",
+      "positive": "Die Lage der Wohnung ist schön",
+      "negative": "Die Einrichtung ist abgewohnt der Tisch im Wohnzimmer ist einfach ein Witz der Lack und die Lackierung blättert ab am Esstisch genauso da bin ich mit dem Ärmel von meinem Pullover hängen geblieben und hab ihn stark beschädigt.Auf der Terrasse liegt ein zusammengebrochener Strandkorb was auch nicht schön aussieht die Verdunkelungsrollos gehen teilweise nicht mehr hoch oder runter das Schwimmbad war auch nicht nutzbar in der Küche stehen vor dem Gadrobenschrank Stühle gestapelt so das man keine Gadrobe hat um mal seine Jacke oder Schuhe abzustellen",
+      "reviewer_name": "claus",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 2944361561,
+      "review_date": "2023-04-13",
+      "review_year": 2023,
+      "score": 5.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Petra",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5130469337,
+      "review_date": "2025-02-16",
+      "review_year": 2025,
+      "score": 5.0,
+      "language": "de",
+      "summary": "Das war nicht schön das Geld hätte ich sparen können",
+      "positive": "Die Lage der Wohnung ist schön",
+      "negative": "Die Einrichtung ist abgewohnt der Tisch im Wohnzimmer ist einfach ein Witz der Lack und die Lackierung blättert ab am Esstisch genauso da bin ich mit dem Ärmel von meinem Pullover hängen geblieben und hab ihn stark beschädigt.Auf der Terrasse liegt ein zusammengebrochener Strandkorb was auch nicht schön aussieht die Verdunkelungsrollos gehen teilweise nicht mehr hoch oder runter das Schwimmbad war auch nicht nutzbar in der Küche stehen vor dem Gadrobenschrank Stühle gestapelt so das man keine Gadrobe hat um mal seine Jacke oder Schuhe abzustellen",
+      "reviewer_name": "claus",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

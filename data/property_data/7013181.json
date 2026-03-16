@@ -1,0 +1,71 @@
+{
+  "property_id": 7013181,
+  "gen_id": "GEN-7013181",
+  "property_name": "Cotswold View 2-2595780",
+  "property_slug": "cotswold-view-2-2595780",
+  "country_code": "GB",
+  "currency": "GBP",
+  "star_rating": 4.0,
+  "review_score": 10.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 4,
+  "reviews": [
+    {
+      "review_id": 5193200611,
+      "review_date": "2025-08-08",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": "Lovely couple. The stay was peaceful and pleasant, hardly hear neighbours.",
+      "negative": "The oven was either broke or maybe I just didn't press the right button.",
+      "reviewer_name": "Cameron",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5226731919,
+      "review_date": "2025-10-26",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "No hesitation in recommending Cotswold 2 to anyone very good",
+      "positive": "Great location, great views of the area all in such peaceful surroundings, accommodation and Hospitality excellent if you want a relaxing peaceful break this is for you",
+      "negative": "Nothing",
+      "reviewer_name": "Martin",
+      "reviewer_country": "es",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5193200611,
+      "review_date": "2025-08-08",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": "Lovely couple. The stay was peaceful and pleasant, hardly hear neighbours.",
+      "negative": "The oven was either broke or maybe I just didn't press the right button.",
+      "reviewer_name": "Cameron",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5226731919,
+      "review_date": "2025-10-26",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "No hesitation in recommending Cotswold 2 to anyone very good",
+      "positive": "Great location, great views of the area all in such peaceful surroundings, accommodation and Hospitality excellent if you want a relaxing peaceful break this is for you",
+      "negative": "Nothing",
+      "reviewer_name": "Martin",
+      "reviewer_country": "es",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

@@ -56,27 +56,27 @@ property-pipeline/
 
 ## Pipeline steps
 
-### Step 1 — `pipeline/rental_writer.py`
+### Step 1 — `rental_writer.py`
 
 Reads `property.json` and `search.json`. Extracts, cleans, deduplicates,
 and inner-joins both sources. Builds a 13-column standardized DataFrame
 and writes it to the `rental_property` Iceberg table partitioned by `country_code`.
 Also writes a single-file Parquet backup to `output/final_output/`.
 
-### Step 2 — `pipeline/reviews_writer.py`
+### Step 2 — `reviews_writer.py`
 
 Reads `property.json` and `reviews.json`. Flattens the nested reviews array
 (one row per review), left-joins with property fields, enriches with
 `gen_id`, `property_slug`, and `data_quality_flag`. Writes to the
 `property_reviews` Iceberg table partitioned by `country_code` and `review_year`.
 
-### Step 3 — `pipeline/json_generator.py`
+### Step 3 — `json_generator.py`
 
 Reads the `property_reviews` Iceberg table. Aggregates all reviews per property
 into a nested list. Uses Spark RDD `.map()` to write one JSON file per property
 to `data/property_data/`.
 
-### Step 4 — `pipeline/property_joiner.py`
+### Step 4 — `property_joiner.py`
 
 Left-joins `rental_property` × `property_reviews` on `id == gen_id`.
 Deduplicates review rows, aggregates per property, and uses Spark RDD `.map()`

@@ -1,0 +1,29 @@
+{
+  "property_id": 12071252,
+  "gen_id": "GEN-12071252",
+  "property_name": "Villa Acquerello",
+  "property_slug": "villa-acquerello",
+  "country_code": "IT",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 8.8,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5202909961,
+      "review_date": "2025-08-27",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "fr",
+      "summary": "Villa spacieuse avec vue magnifique",
+      "positive": "Villa au calme, spacieuse avec une vue panoramique magnifique. Logement très bien équipé ( lave vaisselle, lave linge, produits ménagers, produits d’hygiène, condiments, café …). Grande piscine avec belle vue. Nature luxuriante autour de la maison.",
+      "negative": "Chemin d’accès à la maison qui monte sec et détérioré.",
+      "reviewer_name": "Élodie",
+      "reviewer_country": "fr",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    }
+  ]
+}

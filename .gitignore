@@ -1,0 +1,50 @@
+# ── Iceberg catalog ────────────────────────────────────────────────────────────
+# Auto-generated at runtime — never commit Parquet files or Iceberg metadata
+warehouse/
+
+# ── Pipeline outputs ───────────────────────────────────────────────────────────
+# All generated at runtime by the pipeline steps
+output/
+logs/
+data/property_data/
+data/final_data/
+
+# ── Charts ─────────────────────────────────────────────────────────────────────
+notebooks/iceberg_charts.png
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Spark ─────────────────────────────────────────────────────────────────────
+# Local Ivy/Maven cache for Iceberg JAR — large, re-downloaded automatically
+.ivy2/
+.m2/
+derby.log
+metastore_db/
+spark-warehouse/
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db

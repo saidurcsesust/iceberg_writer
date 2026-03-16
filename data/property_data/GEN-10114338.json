@@ -1,0 +1,29 @@
+{
+  "property_id": 10114338,
+  "gen_id": "GEN-10114338",
+  "property_name": "3 Bedroom Lovely Home In Rovinj",
+  "property_slug": "3-bedroom-lovely-home-in-rovinj",
+  "country_code": "HR",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 9.5,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5034544194,
+      "review_date": "2024-06-01",
+      "review_year": 2024,
+      "score": 9.0,
+      "language": "de",
+      "summary": "Wir haben es sehr genossen und hatten eine wunderbare Zeit",
+      "positive": "Die Anlage der Räume, die Grillanlage und die private Lage",
+      "negative": "Wir vermissten Wasserkocher und Toaster",
+      "reviewer_name": "Friedrich",
+      "reviewer_country": "at",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    }
+  ]
+}

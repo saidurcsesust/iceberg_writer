@@ -1,0 +1,29 @@
+{
+  "property_id": 15234132,
+  "gen_id": "GEN-15234132",
+  "property_name": "Miraculus Penthouse With Private Jacuzzi",
+  "property_slug": "miraculus-penthouse-with-private-jacuzzi",
+  "country_code": "DO",
+  "currency": "USD",
+  "star_rating": 3.0,
+  "review_score": 1.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5257733763,
+      "review_date": "2026-02-07",
+      "review_year": 2026,
+      "score": 1.0,
+      "language": "es",
+      "summary": "Para no volver",
+      "positive": "Malas condiciones",
+      "negative": "La limpieza",
+      "reviewer_name": "Michele",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

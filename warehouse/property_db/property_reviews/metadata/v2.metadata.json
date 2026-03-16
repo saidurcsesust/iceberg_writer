@@ -1,0 +1,189 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "3872e92e-afa0-4eda-9f3b-7b0fff5116eb",
+  "location" : "/home/w3e39/Downloads/property_pipeline/warehouse/property_db/property_reviews",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1773644727833,
+  "last-column-id" : 22,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "property_id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "gen_id",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "property_name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "property_slug",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "currency",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "star_rating",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 7,
+      "name" : "review_score",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 8,
+      "name" : "published",
+      "required" : false,
+      "type" : "boolean"
+    }, {
+      "id" : 9,
+      "name" : "data_quality_flag",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 10,
+      "name" : "review_id",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 11,
+      "name" : "review_date",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "review_individual_score",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 13,
+      "name" : "review_language",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 14,
+      "name" : "review_summary",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 15,
+      "name" : "review_positive",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 16,
+      "name" : "review_negative",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 17,
+      "name" : "reviewer_name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 18,
+      "name" : "reviewer_country",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 19,
+      "name" : "reviewer_travel_purpose",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 20,
+      "name" : "reviewer_type",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 21,
+      "name" : "country_code",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 22,
+      "name" : "review_year",
+      "required" : false,
+      "type" : "int"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ {
+      "name" : "country_code",
+      "transform" : "identity",
+      "source-id" : 21,
+      "field-id" : 1000
+    }, {
+      "name" : "review_year",
+      "transform" : "identity",
+      "source-id" : 22,
+      "field-id" : 1001
+    } ]
+  } ],
+  "last-partition-id" : 1001,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "w3e39",
+    "history.expire.max-snapshot-age-ms" : "86400000",
+    "write.format.default" : "parquet",
+    "write.parquet.compression-codec" : "snappy"
+  },
+  "current-snapshot-id" : 311181369327469006,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 311181369327469006,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 311181369327469006,
+    "timestamp-ms" : 1773644727833,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1773644716396",
+      "added-data-files" : "60",
+      "added-records" : "209",
+      "added-files-size" : "462036",
+      "changed-partition-count" : "60",
+      "total-records" : "209",
+      "total-files-size" : "462036",
+      "total-data-files" : "60",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/home/w3e39/Downloads/property_pipeline/warehouse/property_db/property_reviews/metadata/snap-311181369327469006-1-d923b1c7-b18d-4ffb-bff5-ba5e4792c2fe.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1773644727833,
+    "snapshot-id" : 311181369327469006
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1773644723955,
+    "metadata-file" : "/home/w3e39/Downloads/property_pipeline/warehouse/property_db/property_reviews/metadata/v1.metadata.json"
+  } ]
+}

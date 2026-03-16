@@ -1,0 +1,57 @@
+{
+  "property_id": 12981481,
+  "gen_id": "GEN-12981481",
+  "property_name": "Appartement Antretter",
+  "property_slug": "appartement-antretter",
+  "country_code": "AT",
+  "currency": "EUR",
+  "star_rating": 3.0,
+  "review_score": 9.2,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 5118257476,
+      "review_date": "2025-01-04",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "de",
+      "summary": "Auf jeden Fall, weiter zu empfehlen!",
+      "positive": "Schönes Skigebiet, kurze Fahrzeiten, wirklich nette Vermieter. Gute Ausstattung, schön eingerichtet. Wlan-Repeater in der Wohnung. Ruhige Lage mit schönem Blick. Zwei Balkone. Auto konnte im Carport stehen. Alles war Top!",
+      "negative": null,
+      "reviewer_name": "Carmen",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5244309551,
+      "review_date": "2025-12-26",
+      "review_year": 2025,
+      "score": 9.0,
+      "language": "de",
+      "summary": "Liebevolle, top ausgestattete Wohnung von sehr freundlichen und sympathischen Gastgebern. Sehr gerne wieder!",
+      "positive": "Super ausgestattete Wohnung und vorallem Küche! Und auch die Möglichkeit Ski und Co. abzustellen war da. Also ein rundum sorglos Paket.",
+      "negative": null,
+      "reviewer_name": "Luisa",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    },
+    {
+      "review_id": 5255298667,
+      "review_date": "2026-01-29",
+      "review_year": 2026,
+      "score": 9.0,
+      "language": "fr",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Emmanuelle",
+      "reviewer_country": "fr",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    }
+  ]
+}

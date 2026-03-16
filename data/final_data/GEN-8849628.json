@@ -1,0 +1,60 @@
+{
+  "id": "GEN-8849628",
+  "feed_provider_id": "8849628",
+  "property_name": "2 Bedroom Amazing Home In Dubravica",
+  "property_slug": "2-bedroom-amazing-home-in-dubravica",
+  "country_code": "HR",
+  "currency": "EUR",
+  "usd_price": 1041.97,
+  "star_rating": 3.0,
+  "review_score": 8.0,
+  "commission": 6.96,
+  "meal_plan": "[]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 5174441079,
+      "review_date": "2026-01-19",
+      "review_year": 2026,
+      "score": 8.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Justin",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    },
+    {
+      "review_id": 4629017736,
+      "review_date": "2023-07-13",
+      "review_year": 2023,
+      "score": 10.0,
+      "language": "de",
+      "summary": null,
+      "positive": "Das Haus ist am Ende der Straße, also sehr ruhig gelegen. Der Blick aufs Meer ist unbezahlbar, man wird echt nicht satt davon. \r\nAlles ist sehr sauber! Der Gastgeber ist sehr freundlich, immer da gewesen wenn wir ihn gebraucht haben",
+      "negative": "Nichts",
+      "reviewer_name": "Antonia Pavlovic",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 3822760994,
+      "review_date": "2023-09-24",
+      "review_year": 2023,
+      "score": 5.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": "Very friendly host",
+      "negative": "Unattractive in price quality",
+      "reviewer_name": "Guido",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

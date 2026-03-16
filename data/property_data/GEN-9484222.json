@@ -1,0 +1,57 @@
+{
+  "property_id": 9484222,
+  "gen_id": "GEN-9484222",
+  "property_name": "Küste 8",
+  "property_slug": "kste-8",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 8.7,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 5016082387,
+      "review_date": "2024-04-07",
+      "review_year": 2024,
+      "score": 8.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Karina",
+      "reviewer_country": "ie",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    },
+    {
+      "review_id": 5201442336,
+      "review_date": "2025-08-24",
+      "review_year": 2025,
+      "score": 9.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Monique",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    },
+    {
+      "review_id": 5226298416,
+      "review_date": "2025-10-25",
+      "review_year": 2025,
+      "score": 9.0,
+      "language": "de",
+      "summary": "Gerne wieder 😃",
+      "positive": "Es war ein sehr schönes Wochenende 🌞. Die Wohnung war sehr sauber und stielgerecht eingerichtet. Haben uns sehr wohl gefühlt.",
+      "negative": "Das Sofa ist für Leute über sechzig wohl nicht das richtige, sehr flach und tief. Einmal hinsetzen und nicht wieder aufstehen.🥴",
+      "reviewer_name": "Neb",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

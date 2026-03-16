@@ -1,0 +1,4 @@
+pyspark==3.5.1
+pyarrow>=14.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0

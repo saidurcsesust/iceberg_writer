@@ -1,0 +1,29 @@
+{
+  "property_id": 10666022,
+  "gen_id": "GEN-10666022",
+  "property_name": "Hanseat I App 79",
+  "property_slug": "hanseat-i-app-79",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 9.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5060807801,
+      "review_date": "2024-08-01",
+      "review_year": 2024,
+      "score": 9.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Lehmann",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    }
+  ]
+}

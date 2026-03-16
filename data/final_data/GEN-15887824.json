@@ -1,0 +1,17 @@
+{
+  "id": "GEN-15887824",
+  "feed_provider_id": "15887824",
+  "property_name": "Turquesa",
+  "property_slug": "turquesa",
+  "country_code": "MX",
+  "currency": "USD",
+  "usd_price": 115.56,
+  "star_rating": 3.0,
+  "review_score": 0.0,
+  "commission": 8.7,
+  "meal_plan": "[breakfast]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 0,
+  "reviews": []
+}

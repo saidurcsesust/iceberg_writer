@@ -1,0 +1,17 @@
+{
+  "id": "GEN-15898216",
+  "feed_provider_id": "15898216",
+  "property_name": "Tash HOSTEL",
+  "property_slug": "tash-hostel",
+  "country_code": "UZ",
+  "currency": "USD",
+  "usd_price": 72.5,
+  "star_rating": 0.0,
+  "review_score": 0.0,
+  "commission": 8.7,
+  "meal_plan": "[]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 0,
+  "reviews": []
+}

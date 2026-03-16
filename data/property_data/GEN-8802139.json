@@ -1,0 +1,29 @@
+{
+  "property_id": 8802139,
+  "gen_id": "GEN-8802139",
+  "property_name": "1 Bedroom Nice Apartment In Royan",
+  "property_slug": "1-bedroom-nice-apartment-in-royan",
+  "country_code": "FR",
+  "currency": "EUR",
+  "star_rating": 2.0,
+  "review_score": 3.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5218819336,
+      "review_date": "2025-10-04",
+      "review_year": 2025,
+      "score": 3.0,
+      "language": "fr",
+      "summary": "LOGEMENT MISÉRABLE",
+      "positive": "Vétustée incroyable faite de bric et de broc dépareillé digne d'un logement social. Si le prix demandé parait faible, la découverte du local rend tout à coup le prix excessif. Le ménage semble fait correctement mais dans un local pitoyable de nature à nuire à l'image de Bookkng.com",
+      "negative": "Local dangereux. Fuites. Pas de draps. Pas de chauffage. Moisi partout. Portes sans poignée. Douche minuscule. Hygiène discutable. \nNOVASOL est totalement incohérent. NOVASOL prétend que la réservation n'est pas remboursable. OK. Mais au lieu de prendre l'argent dès le réservation il réclame constamment de l'argent et même le réglement du ménage d'avance.",
+      "reviewer_name": "Alex",
+      "reviewer_country": "fr",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

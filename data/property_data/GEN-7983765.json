@@ -1,0 +1,57 @@
+{
+  "property_id": 7983765,
+  "gen_id": "GEN-7983765",
+  "property_name": "Ferienwohnung E10",
+  "property_slug": "ferienwohnung-e10",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 3.0,
+  "review_score": 6.7,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 3251437032,
+      "review_date": "2023-08-07",
+      "review_year": 2023,
+      "score": 8.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Christian",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    },
+    {
+      "review_id": 3880465595,
+      "review_date": "2023-08-14",
+      "review_year": 2023,
+      "score": 5.0,
+      "language": "de",
+      "summary": "War okay",
+      "positive": "Jaja",
+      "negative": "Lili",
+      "reviewer_name": "Boeser",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    },
+    {
+      "review_id": 5100765275,
+      "review_date": "2024-11-04",
+      "review_year": 2024,
+      "score": 7.0,
+      "language": "de",
+      "summary": null,
+      "positive": "Perfekte Lage. Die Wohnung ist ordentlich und auch gemütlich eingerichtet.",
+      "negative": null,
+      "reviewer_name": "Patrick",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

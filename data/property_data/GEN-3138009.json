@@ -1,0 +1,57 @@
+{
+  "property_id": 3138009,
+  "gen_id": "GEN-3138009",
+  "property_name": "Ash Cottage",
+  "property_slug": "ash-cottage",
+  "country_code": "GB",
+  "currency": "GBP",
+  "star_rating": 5.0,
+  "review_score": 10.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 5026439962,
+      "review_date": "2024-05-09",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "The stay was as perfect as I hoped it would be - with the added excitement of a cellar to explore!",
+      "positive": "I liked everything about the cottage, its location in a lovely explorable village and the meticulous provision of everything I needed for a quiet and comfortable holiday. Perhaps one of my main attractions to the cottage was its superb bath which I really enjoyed luxuriating in!",
+      "negative": "It would have been helpful to have had something to hang hand towels on in the kitchen area but this is trivial set against everything that had been thought of.",
+      "reviewer_name": "Peter",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5082302566,
+      "review_date": "2024-09-14",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "Great accommodation great stay.",
+      "positive": "Perfect base for walking",
+      "negative": "All that you need.  Beautifully presented.",
+      "reviewer_name": "chris",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    },
+    {
+      "review_id": 5239648324,
+      "review_date": "2025-12-09",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "Excellent. Immaculate property . Perfect location for walks around chatsworth",
+      "positive": "Perfect location and price",
+      "negative": "Parking was slightly difficult. School lane was very busy so had to leave car quite far away.",
+      "reviewer_name": "rachel",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "GEN-12932831",
+  "feed_provider_id": "12932831",
+  "property_name": "Beautiful Home In Mont-Dol With Wifi",
+  "property_slug": "beautiful-home-in-mont-dol-with-wifi",
+  "country_code": "FR",
+  "currency": "EUR",
+  "usd_price": 456.14,
+  "star_rating": 3.0,
+  "review_score": 8.0,
+  "commission": 6.96,
+  "meal_plan": "[]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5262393480,
+      "review_date": "2026-02-23",
+      "review_year": 2026,
+      "score": 8.0,
+      "language": "fr",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Mathieu",
+      "reviewer_country": "fr",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "solo_traveller"
+    }
+  ]
+}

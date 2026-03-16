@@ -1,0 +1,29 @@
+{
+  "property_id": 3009944,
+  "gen_id": "GEN-3009944",
+  "property_name": "The Cartwheel",
+  "property_slug": "the-cartwheel",
+  "country_code": "GB",
+  "currency": "GBP",
+  "star_rating": 4.0,
+  "review_score": 8.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5132403088,
+      "review_date": "2025-02-22",
+      "review_year": 2025,
+      "score": 8.0,
+      "language": "en-gb",
+      "summary": "Fabulous views, close to local amenities.",
+      "positive": "Sea-Front Position is outstanding.",
+      "negative": null,
+      "reviewer_name": "Anne",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    }
+  ]
+}

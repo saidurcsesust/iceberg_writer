@@ -1,0 +1,29 @@
+{
+  "property_id": 3437932,
+  "gen_id": "GEN-3437932",
+  "property_name": "The Old Piggery - Ukc2619",
+  "property_slug": "the-old-piggery-ukc2619",
+  "country_code": "GB",
+  "currency": "GBP",
+  "star_rating": 4.0,
+  "review_score": 9.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 1,
+  "reviews": [
+    {
+      "review_id": 5221163372,
+      "review_date": "2025-10-10",
+      "review_year": 2025,
+      "score": 9.0,
+      "language": "en-gb",
+      "summary": "If you are looking for a quite peaceful setting this is definitely the place.",
+      "positive": "Everything you needed for a stay.Lovely to have milk,tea,coffee,sugar and biscuits left.Also salt, pepper,oil,tin foil. Those things make such a difference when self catering. Really could not fault anything.",
+      "negative": "Smoke alarm was very sensitive.",
+      "reviewer_name": "Heather",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

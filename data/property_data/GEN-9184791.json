@@ -1,0 +1,71 @@
+{
+  "property_id": 9184791,
+  "gen_id": "GEN-9184791",
+  "property_name": "Mosscarr Barn",
+  "property_slug": "mosscarr-barn",
+  "country_code": "GB",
+  "currency": "GBP",
+  "star_rating": 4.0,
+  "review_score": 10.0,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 4,
+  "reviews": [
+    {
+      "review_id": 4619389168,
+      "review_date": "2023-04-17",
+      "review_year": 2023,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "A shame weekends are so short!",
+      "positive": "Lovely spacious living room and kitchen, great to have a dishwasher in a property with that many guests, lots of parking and secluded. The property is very quiet and has all the amenities expected (wifi etc). Although we didn’t do any walking, I’ll definitely look at coming back!",
+      "negative": "Only improvement would be a little sign on the road to reassure drivers that the track to the property is the correct track! Other than that everything was perfect!",
+      "reviewer_name": "Vincent",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5039669792,
+      "review_date": "2024-06-16",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": "Gorgeous barn with beautiful views. Bathroom for every room, massive kitchen and living space. Comfy sofa seat for everyone and comfortable beds. \nThinking of staying again in September. \nHighly recommend.",
+      "negative": null,
+      "reviewer_name": "Natalie",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    },
+    {
+      "review_id": 5101044385,
+      "review_date": "2024-11-04",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Louise",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "extended_group"
+    },
+    {
+      "review_id": 5185426548,
+      "review_date": "2025-07-23",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "The property was very comfortable and very well equipped. We had a wonderful, long weekend break.",
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Sally",
+      "reviewer_country": "gb",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    }
+  ]
+}

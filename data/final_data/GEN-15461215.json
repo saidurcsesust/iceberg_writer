@@ -1,0 +1,17 @@
+{
+  "id": "GEN-15461215",
+  "feed_provider_id": "15461215",
+  "property_name": "Haus Horizont",
+  "property_slug": "haus-horizont",
+  "country_code": "DE",
+  "currency": "EUR",
+  "usd_price": 708.82,
+  "star_rating": 4.0,
+  "review_score": 0.0,
+  "commission": 6.96,
+  "meal_plan": "[]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 0,
+  "reviews": []
+}

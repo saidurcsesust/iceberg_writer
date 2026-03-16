@@ -1,0 +1,17 @@
+{
+  "id": "GEN-14992597",
+  "feed_provider_id": "14992597",
+  "property_name": "Rookery Cottage",
+  "property_slug": "rookery-cottage",
+  "country_code": "GB",
+  "currency": "GBP",
+  "usd_price": 781.54,
+  "star_rating": 4.0,
+  "review_score": 0.0,
+  "commission": 6.96,
+  "meal_plan": "[]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 0,
+  "reviews": []
+}

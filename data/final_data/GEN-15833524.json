@@ -1,0 +1,17 @@
+{
+  "id": "GEN-15833524",
+  "feed_provider_id": "15833524",
+  "property_name": "Preloune Residences SA",
+  "property_slug": "preloune-residences-sa",
+  "country_code": "HT",
+  "currency": "USD",
+  "usd_price": 180.0,
+  "star_rating": 0.0,
+  "review_score": 0.0,
+  "commission": 8.7,
+  "meal_plan": "[breakfast]",
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 0,
+  "reviews": []
+}

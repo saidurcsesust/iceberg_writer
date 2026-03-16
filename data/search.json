@@ -1,0 +1,3326 @@
+[
+  {
+    "id": 15898216,
+    "commission": {
+      "amount": 7.57,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15898216?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 72.5,
+      "book": 72.5,
+      "extra_charges": {
+        "excluded": 21.75,
+        "included": 0.0
+      },
+      "total": 94.25
+    },
+    "products": [
+      {
+        "id": "1589821602_430083830_3_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-06-02T12:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 72.5,
+          "book": 72.5,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 20.0,
+                "total_amount": 14.5,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 7.25,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 94.25
+        },
+        "room": 1589821602,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/uz/tash-hostel.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15893272,
+    "commission": {
+      "amount": 16.33,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15893272?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 170.63,
+      "book": 170.63,
+      "extra_charges": {
+        "excluded": 34.13,
+        "included": 0.0
+      },
+      "total": 204.76
+    },
+    "products": [
+      {
+        "id": "1589327201_430034871_8_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 170.63,
+          "book": 170.63,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 17.06,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 17.06,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 204.76
+        },
+        "room": 1589327201,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/kr/boghabteomineol-3bun-madang-issneun-gamseong-dogcae.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15890644,
+    "commission": {
+      "amount": 102.41,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15890644?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 1070.31,
+      "book": 1210.47,
+      "extra_charges": {
+        "excluded": 125.53,
+        "included": 140.16
+      },
+      "total": 1336.01
+    },
+    "products": [
+      {
+        "id": "1589064401_430009725_8_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-02T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 1070.31,
+          "book": 1210.47,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 107.03,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "calculated_amount",
+                "percentage": null,
+                "total_amount": 18.5,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 140.16,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 1336.01
+        },
+        "room": 1589064401,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/fr/somptueuse-maison-familiale-avec-piscine.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15890120,
+    "commission": {
+      "amount": 3.99,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15890120?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 42.46,
+      "book": 42.46,
+      "extra_charges": {
+        "excluded": 3.4,
+        "included": 0.0
+      },
+      "total": 45.86
+    },
+    "products": [
+      {
+        "id": "1589012001_430007062_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 5,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-31T16:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 42.46,
+          "book": 42.46,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 8.0,
+                "total_amount": 3.4,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 45.86
+        },
+        "room": 1589012001,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/vn/hanh-tan-tai-guest-house.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15889843,
+    "commission": {
+      "amount": 51.06,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15889843?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 548.06,
+      "book": 742.56,
+      "extra_charges": {
+        "excluded": 185.64,
+        "included": 194.5
+      },
+      "total": 928.19
+    },
+    "products": [
+      {
+        "id": "1588984301_430003780_10_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 548.06,
+          "book": 742.56,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 5,
+                "condition": 0,
+                "mode": "incalculable",
+                "percentage": null,
+                "total_amount": null,
+                "unit_amount": null
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 25.0,
+                "total_amount": 185.64,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 194.5,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 928.19
+        },
+        "room": 1588984301,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/dk/amazing-home-in-orsted-with-sauna.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15889492,
+    "commission": {
+      "amount": 30.14,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15889492?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 346.5,
+      "book": 346.5,
+      "extra_charges": {
+        "excluded": 55.44,
+        "included": 0.0
+      },
+      "total": 401.94
+    },
+    "products": [
+      {
+        "id": "1588949201_429994958_0_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-06-01T05:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 346.5,
+          "book": 346.5,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 16.0,
+                "total_amount": 55.44,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 401.94
+        },
+        "room": 1588949201,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/mx/private-patio-peaceful-and-centric.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15887824,
+    "commission": {
+      "amount": 10.05,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15887824?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 115.56,
+      "book": 115.56,
+      "extra_charges": {
+        "excluded": 24.27,
+        "included": 0.0
+      },
+      "total": 139.83
+    },
+    "products": [
+      {
+        "id": "1588782402_429980945_2_1_0",
+        "bundle": null,
+        "children": [],
+        "deal": {
+          "discount_percentage": 36,
+          "public_price": 180.57,
+          "tags": [
+            "limited_time_deal"
+          ]
+        },
+        "number_available_at_this_price": 10,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-06-02T22:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [
+              "breakfast"
+            ],
+            "plan": "breakfast_included"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 115.56,
+          "book": 115.56,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 16.0,
+                "total_amount": 18.49,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 5.0,
+                "total_amount": 5.78,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 139.83
+        },
+        "room": 1588782402,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/mx/turquesa-bacalar.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15852731,
+    "commission": {
+      "amount": 33.22,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15852731?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 347.21,
+      "book": 431.31,
+      "extra_charges": {
+        "excluded": 53.82,
+        "included": 84.1
+      },
+      "total": 485.13
+    },
+    "products": [
+      {
+        "id": "1585273101_429650672_4_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-27T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 347.21,
+          "book": 431.31,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 34.72,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "calculated_amount",
+                "percentage": null,
+                "total_amount": 19.1,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 84.1,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 485.13
+        },
+        "room": 1585273101,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/fr/escapade-oceane-aux-portes-de-la-rochelle.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15833872,
+    "commission": {
+      "amount": 38.42,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15833872?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 480.09,
+      "book": 480.09,
+      "extra_charges": {
+        "excluded": 72.01,
+        "included": 0.0
+      },
+      "total": 552.1
+    },
+    "products": [
+      {
+        "id": "1583387201_429450561_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 480.09,
+          "book": 480.09,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 15.0,
+                "total_amount": 72.01,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 552.1
+        },
+        "room": 1583387201,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/nz/heavenly-tekapo-apartment-c.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15833524,
+    "commission": {
+      "amount": 15.66,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15833524?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 180.0,
+      "book": 180.0,
+      "extra_charges": {
+        "excluded": 18.0,
+        "included": 0.0
+      },
+      "total": 198.0
+    },
+    "products": [
+      {
+        "id": "1583352401_429444186_2_1_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-06-01T03:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [
+              "breakfast"
+            ],
+            "plan": "breakfast_included"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 180.0,
+          "book": 180.0,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 18.0,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 198.0
+        },
+        "room": 1583352401,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/ht/preloune-residences-sa.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15820780,
+    "commission": {
+      "amount": 20.57,
+      "percentage": 7.54
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15820780?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 272.88,
+      "book": 272.88,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 272.88
+    },
+    "products": [
+      {
+        "id": "1582078001_429317412_0_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-28T02:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 272.88,
+          "book": 272.88,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 272.88
+        },
+        "room": 1582078001,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/br/kibeleza.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15814192,
+    "commission": {
+      "amount": 9.39,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15814192?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 103.77,
+      "book": 103.77,
+      "extra_charges": {
+        "excluded": 31.13,
+        "included": 0.0
+      },
+      "total": 134.9
+    },
+    "products": [
+      {
+        "id": "1581419201_429883323_0_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-31T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 103.77,
+          "book": 103.77,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 20.0,
+                "total_amount": 20.75,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 10.38,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 134.9
+        },
+        "room": 1581419201,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/al/sky-luxury-apartament.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15782668,
+    "commission": {
+      "amount": 21.95,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15782668?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 256.39,
+      "book": 256.39,
+      "extra_charges": {
+        "excluded": 58.97,
+        "included": 0.0
+      },
+      "total": 315.36
+    },
+    "products": [
+      {
+        "id": "1578266801_428930612_3_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-31T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 256.39,
+          "book": 256.39,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 20.0,
+                "total_amount": 51.28,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 3.0,
+                "total_amount": 7.69,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 315.36
+        },
+        "room": 1578266801,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/al/romantic-getaway-seaview-apartment.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15570829,
+    "commission": {
+      "amount": 10.43,
+      "percentage": 7.97
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15570829?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 130.8,
+      "book": 144.66,
+      "extra_charges": {
+        "excluded": 7.85,
+        "included": 13.86
+      },
+      "total": 152.51
+    },
+    "products": [
+      {
+        "id": "1557082902_426840123_2_1_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [
+              "breakfast"
+            ],
+            "plan": "breakfast_included"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 130.8,
+          "book": 144.66,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 6.0,
+                "total_amount": 7.85,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 13.86,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 152.51
+        },
+        "room": 1557082902,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/cn/holiday-inn-express-kunming-dianchi-rixin-road-by-ihg.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15461215,
+    "commission": {
+      "amount": 49.33,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15461215?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 708.82,
+      "book": 708.82,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 708.82
+    },
+    "products": [
+      {
+        "id": "1546121501_425892272_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-02T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 708.82,
+          "book": 708.82,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 708.82
+        },
+        "room": 1546121501,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/de/haus-horizont-riedering.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15234132,
+    "commission": {
+      "amount": 63.01,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15234132?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 724.35,
+      "book": 724.35,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 724.35
+    },
+    "products": [
+      {
+        "id": "1523413201_423993604_6_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 724.35,
+          "book": 724.35,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 724.35
+        },
+        "room": 1523413201,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/do/miraculus-penthouse-with-private-jacuzzi.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 15158069,
+    "commission": {
+      "amount": 53.16,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/15158069?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 763.91,
+      "book": 763.91,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 763.91
+    },
+    "products": [
+      {
+        "id": "1515806901_423289039_4_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 763.91,
+          "book": 763.91,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 763.91
+        },
+        "room": 1515806901,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/se/2-bedroom-stunning-home-in-byxelkrok.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 14992597,
+    "commission": {
+      "amount": 54.39,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/14992597?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 781.54,
+      "book": 781.54,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 781.54
+    },
+    "products": [
+      {
+        "id": "1499259701_421602186_4_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 781.54,
+          "book": 781.54,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 781.54
+        },
+        "room": 1499259701,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/rookery-cottage-lynton.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 14866024,
+    "commission": {
+      "amount": 59.81,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/14866024?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 687.58,
+      "book": 687.58,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 687.58
+    },
+    "products": [
+      {
+        "id": "1486602401_420149229_8_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 687.58,
+          "book": 687.58,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 5,
+                "condition": 0,
+                "mode": "incalculable",
+                "percentage": null,
+                "total_amount": null,
+                "unit_amount": null
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": 0.0
+              },
+              {
+                "charge": 10,
+                "condition": 0,
+                "mode": "incalculable",
+                "percentage": null,
+                "total_amount": null,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 687.58
+        },
+        "room": 1486602401,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/dk/lf12708-vinderup-solsortevej-8.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 14690442,
+    "commission": {
+      "amount": 62.94,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/14690442?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 904.42,
+      "book": 1114.66,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 210.24
+      },
+      "total": 1114.66
+    },
+    "products": [
+      {
+        "id": "1469044202_418229507_7_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 904.42,
+          "book": 1114.66,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 175.2,
+                "unit_amount": null
+              },
+              {
+                "charge": 5,
+                "condition": 0,
+                "mode": "per_night",
+                "percentage": null,
+                "total_amount": 24.53,
+                "unit_amount": 8.18
+              },
+              {
+                "charge": 10,
+                "condition": 0,
+                "mode": "per_night",
+                "percentage": null,
+                "total_amount": 10.51,
+                "unit_amount": 3.5
+              }
+            ]
+          },
+          "total": 1114.66
+        },
+        "room": 1469044202,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/it/4-bedroom-cozy-home-in-ragusa.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 14373059,
+    "commission": {
+      "amount": 31.28,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/14373059?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 449.52,
+      "book": 683.12,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 233.6
+      },
+      "total": 683.12
+    },
+    "products": [
+      {
+        "id": "1437305902_415225278_6_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 449.52,
+          "book": 683.12,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 198.56,
+                "unit_amount": null
+              },
+              {
+                "charge": 5,
+                "condition": 0,
+                "mode": "per_night",
+                "percentage": null,
+                "total_amount": 24.53,
+                "unit_amount": 8.18
+              },
+              {
+                "charge": 10,
+                "condition": 0,
+                "mode": "per_night",
+                "percentage": null,
+                "total_amount": 10.51,
+                "unit_amount": 3.5
+              }
+            ]
+          },
+          "total": 683.12
+        },
+        "room": 1437305902,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/it/awesome-home-in-santa-maria-del-focall-with-house-a-panoramic-view.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 12932831,
+    "commission": {
+      "amount": 31.74,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/12932831?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 456.14,
+      "book": 456.14,
+      "extra_charges": {
+        "excluded": 30.84,
+        "included": 0.0
+      },
+      "total": 486.97
+    },
+    "products": [
+      {
+        "id": "1293283102_402271802_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 456.14,
+          "book": 456.14,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 142,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 30.84,
+                "unit_amount": 5.14
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": null
+              },
+              {
+                "charge": 100,
+                "condition": 0,
+                "mode": "per_person_per_stay",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": 0.0
+              }
+            ]
+          },
+          "total": 486.97
+        },
+        "room": 1293283102,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/fr/beautiful-home-in-mont-dol-with-wifi.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 12929721,
+    "commission": {
+      "amount": 93.67,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/12929721?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 1346.0,
+      "book": 1547.9,
+      "extra_charges": {
+        "excluded": 185.75,
+        "included": 201.9
+      },
+      "total": 1733.65
+    },
+    "products": [
+      {
+        "id": "1292972102_418028790_10_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 1346.0,
+          "book": 1547.9,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 148,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 12.0,
+                "total_amount": 185.75,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 15.0,
+                "total_amount": 201.9,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 1733.65
+        },
+        "room": 1292972102,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/us/vista-pines-retreat.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 12600725,
+    "commission": {
+      "amount": 10.35,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/12600725?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 119.02,
+      "book": 133.02,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 14.0
+      },
+      "total": 133.02
+    },
+    "products": [
+      {
+        "id": "1260072508_398617668_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 119.02,
+          "book": 133.02,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 14.0,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 133.02
+        },
+        "room": 1260072508,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/mx/12-de-octubre.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 10569673,
+    "commission": {
+      "amount": 15.19,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/10569673?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 198.49,
+      "book": 261.89,
+      "extra_charges": {
+        "excluded": 19.85,
+        "included": 63.4
+      },
+      "total": 281.74
+    },
+    "products": [
+      {
+        "id": "1056967301_378717378_8_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": {
+          "discount_percentage": 14,
+          "public_price": 305.46,
+          "tags": [
+            "limited_time_deal"
+          ]
+        },
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-18T14:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 198.49,
+          "book": 261.89,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 19.85,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 63.4,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 281.74
+        },
+        "room": 1056967301,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/jp/rinobesiyongu-min-jia-yuunagi.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 10521952,
+    "commission": {
+      "amount": 47.42,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/10521952?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 681.45,
+      "book": 681.45,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 681.45
+    },
+    "products": [
+      {
+        "id": "1052195202_396926759_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 681.45,
+          "book": 681.45,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 681.45
+        },
+        "room": 1052195202,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/katmoget-cottage-cupar.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 9453430,
+    "commission": {
+      "amount": 57.38,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/9453430?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 824.63,
+      "book": 883.29,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 58.65
+      },
+      "total": 883.29
+    },
+    "products": [
+      {
+        "id": "945343002_397071336_6_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 824.63,
+          "book": 883.29,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 58.65,
+                "unit_amount": null
+              },
+              {
+                "charge": 100,
+                "condition": 0,
+                "mode": "per_person_per_stay",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": 0.0
+              }
+            ]
+          },
+          "total": 883.29
+        },
+        "room": 945343002,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/pl/awesome-apartment-in-jezierzany-with-2-bedrooms-jezierzany2.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 8849628,
+    "commission": {
+      "amount": 72.51,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/8849628?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 1041.97,
+      "book": 1041.97,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 1041.97
+    },
+    "products": [
+      {
+        "id": "884962802_396827944_5_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 1041.97,
+          "book": 1041.97,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": null
+              },
+              {
+                "charge": 100,
+                "condition": 0,
+                "mode": "per_person_per_stay",
+                "percentage": null,
+                "total_amount": 0.0,
+                "unit_amount": 0.0
+              }
+            ]
+          },
+          "total": 1041.97
+        },
+        "room": 884962802,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/hr/amazing-home-in-dubravica-with-outdoor-swimming-pool-wifi-and-2-bedrooms.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 8719233,
+    "commission": {
+      "amount": 25.91,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/8719233?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 257.37,
+      "book": 257.37,
+      "extra_charges": {
+        "excluded": 40.47,
+        "included": 0.0
+      },
+      "total": 297.84
+    },
+    "products": [
+      {
+        "id": "871923301_395931878_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-02T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 257.37,
+          "book": 257.37,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 7.01,
+                "unit_amount": 1.17
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 13.0,
+                "total_amount": 33.46,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 297.84
+        },
+        "room": 871923301,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/hr/lavanda-2-split.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 7983765,
+    "commission": {
+      "amount": 21.57,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/7983765?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 289.75,
+      "book": 451.51,
+      "extra_charges": {
+        "excluded": 39.9,
+        "included": 161.76
+      },
+      "total": 491.41
+    },
+    "products": [
+      {
+        "id": "798376502_413021745_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-18T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 289.75,
+          "book": 451.51,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 13,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 19.62,
+                "unit_amount": 3.27
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 7.0,
+                "total_amount": 20.28,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 52.42,
+                "unit_amount": null
+              },
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 109.34,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 491.41
+        },
+        "room": 798376502,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/de/null-ferienwohnung-e10-graal-muritz.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 7013181,
+    "commission": {
+      "amount": 52.84,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/7013181?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 759.29,
+      "book": 759.29,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 759.29
+    },
+    "products": [
+      {
+        "id": "701318102_396866551_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 759.29,
+          "book": 759.29,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 759.29
+        },
+        "room": 701318102,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/rosewood-lodge.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 6831651,
+    "commission": {
+      "amount": 38.98,
+      "percentage": 8.29
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/6831651?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 470.0,
+      "book": 476.0,
+      "extra_charges": {
+        "excluded": 71.11,
+        "included": 6.0
+      },
+      "total": 547.11
+    },
+    "products": [
+      {
+        "id": "683165105_278406572_2_41_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 3,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [
+              "breakfast"
+            ],
+            "plan": "breakfast_included"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 470.0,
+          "book": 476.0,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 15.13,
+                "total_amount": 71.11,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "per_night",
+                "percentage": null,
+                "total_amount": 6.0,
+                "unit_amount": 2.0
+              }
+            ]
+          },
+          "total": 547.11
+        },
+        "room": 683165105,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/us/even-hotels-rochester-st-marys-area.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 6537808,
+    "commission": {
+      "amount": 32.85,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/6537808?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 472.08,
+      "book": 706.73,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 234.65
+      },
+      "total": 706.73
+    },
+    "products": [
+      {
+        "id": "653780802_397100131_4_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 472.08,
+          "book": 706.73,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 5,
+                "condition": 0,
+                "mode": "incalculable",
+                "percentage": null,
+                "total_amount": null,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 130.36,
+                "unit_amount": null
+              },
+              {
+                "charge": 100,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 104.29,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 706.73
+        },
+        "room": 653780802,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/no/awesome-apartment-in-fjell-w-wifi-and-1-bedrooms.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 6223581,
+    "commission": {
+      "amount": 16.74,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/6223581?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 240.62,
+      "book": 409.61,
+      "extra_charges": {
+        "excluded": 22.78,
+        "included": 168.99
+      },
+      "total": 432.38
+    },
+    "products": [
+      {
+        "id": "622358102_405153227_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-04-02T21:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_at_the_property"
+            ]
+          }
+        },
+        "price": {
+          "base": 240.62,
+          "book": 409.61,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 13,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 22.78,
+                "unit_amount": 3.8
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 21.48,
+                "unit_amount": null
+              },
+              {
+                "charge": 3,
+                "condition": 0,
+                "mode": "per_stay",
+                "percentage": null,
+                "total_amount": 90.23,
+                "unit_amount": null
+              },
+              {
+                "charge": 100,
+                "condition": 0,
+                "mode": "per_person_per_stay",
+                "percentage": null,
+                "total_amount": 57.28,
+                "unit_amount": 28.64
+              }
+            ]
+          },
+          "total": 432.38
+        },
+        "room": 622358102,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/de/seedorf-ferienwohnung-24-am-neuensiener-see.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 5989584,
+    "commission": {
+      "amount": 7.89,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/5989584?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 82.5,
+      "book": 82.5,
+      "extra_charges": {
+        "excluded": 8.25,
+        "included": 0.0
+      },
+      "total": 90.75
+    },
+    "products": [
+      {
+        "id": "598958402_234978194_2_42_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 2,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 82.5,
+          "book": 82.5,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 8.25,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 90.75
+        },
+        "room": 598958402,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/id/odiyana-bali-retreat.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 3437932,
+    "commission": {
+      "amount": 33.12,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/3437932?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 475.96,
+      "book": 475.96,
+      "extra_charges": {
+        "excluded": 0.0,
+        "included": 0.0
+      },
+      "total": 475.96
+    },
+    "products": [
+      {
+        "id": "343793202_396829238_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 475.96,
+          "book": 475.96,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [],
+            "included": []
+          },
+          "total": 475.96
+        },
+        "room": 343793202,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/the-old-piggery-ukc2619-shaldon-near-teignmouth.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 3138009,
+    "commission": {
+      "amount": 50.02,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/3138009?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 599.04,
+      "book": 599.04,
+      "extra_charges": {
+        "excluded": 119.81,
+        "included": 0.0
+      },
+      "total": 718.85
+    },
+    "products": [
+      {
+        "id": "313800901_396964822_2_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 599.04,
+          "book": 599.04,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 20.0,
+                "total_amount": 119.81,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 718.85
+        },
+        "room": 313800901,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/ash-cottage-bakewell.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 2254251,
+    "commission": {
+      "amount": 44.23,
+      "percentage": 8.53
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/2254251?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 462.77,
+      "book": 462.77,
+      "extra_charges": {
+        "excluded": 73.05,
+        "included": 0.0
+      },
+      "total": 535.82
+    },
+    "products": [
+      {
+        "id": "225425105_98993040_2_2_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 7,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 462.77,
+          "book": 462.77,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "per_person_per_night",
+                "percentage": null,
+                "total_amount": 17.52,
+                "unit_amount": 2.92
+              },
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 12.0,
+                "total_amount": 55.53,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 535.82
+        },
+        "room": 225425105,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/be/mercure-blankenberge-station.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 1509823,
+    "commission": {
+      "amount": 32.1,
+      "percentage": 6.96
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/1509823?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 384.43,
+      "book": 384.43,
+      "extra_charges": {
+        "excluded": 76.89,
+        "included": 0.0
+      },
+      "total": 461.32
+    },
+    "products": [
+      {
+        "id": "150982303_397092229_4_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 10,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 384.43,
+          "book": 384.43,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 20.0,
+                "total_amount": 76.89,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 461.32
+        },
+        "room": 150982303,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/gb/tilford-woods.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 242052,
+    "commission": {
+      "amount": 13.84,
+      "percentage": 8.41
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/242052?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 136.02,
+      "book": 150.99,
+      "extra_charges": {
+        "excluded": 13.6,
+        "included": 14.96
+      },
+      "total": 164.59
+    },
+    "products": [
+      {
+        "id": "24205220_411987463_2_2_0_1149175",
+        "bundle": 1149175,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-02T16:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property",
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 136.02,
+          "book": 150.99,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 13.6,
+                "unit_amount": null
+              }
+            ],
+            "included": [
+              {
+                "charge": 1,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 14.96,
+                "unit_amount": null
+              }
+            ]
+          },
+          "total": 164.59
+        },
+        "room": 24205220,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/id/holiday-inn-resort-batam.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 174022,
+    "commission": {
+      "amount": 51.51,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/174022?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 521.74,
+      "book": 521.74,
+      "extra_charges": {
+        "excluded": 70.44,
+        "included": 0.0
+      },
+      "total": 592.18
+    },
+    "products": [
+      {
+        "id": "17402203_200109735_0_1_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 1,
+        "number_of_adults": 2,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": "2026-05-31T20:59:59+00:00",
+            "type": "free_cancellation"
+          },
+          "meal_plan": {
+            "meals": [
+              "breakfast"
+            ],
+            "plan": "breakfast_included"
+          },
+          "payment": {
+            "prepayment_required": false,
+            "timings": [
+              "pay_at_the_property",
+              "pay_online_later",
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 521.74,
+          "book": 521.74,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 21,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 13.5,
+                "total_amount": 70.44,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 592.18
+        },
+        "room": 17402203,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/fi/guesthouse-bridget-inn.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  },
+  {
+    "id": 8856332,
+    "commission": {
+      "amount": 3.06,
+      "percentage": 8.7
+    },
+    "currency": "USD",
+    "deep_link_url": "booking://hotel/8856332?affiliate_id=1142293&checkin=2026-06-02&checkout=2026-06-05",
+    "price": {
+      "base": 32.03,
+      "book": 32.03,
+      "extra_charges": {
+        "excluded": 3.2,
+        "included": 0.0
+      },
+      "total": 35.23
+    },
+    "products": [
+      {
+        "id": "885633202_358037326_1_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 1,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 16.01,
+          "book": 16.01,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 1.6,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 17.62
+        },
+        "room": 885633202,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      },
+      {
+        "id": "885633202_358037326_1_0_0",
+        "bundle": null,
+        "children": [],
+        "deal": null,
+        "number_available_at_this_price": 6,
+        "number_of_adults": 1,
+        "policies": {
+          "cancellation": {
+            "free_cancellation_until": null,
+            "type": "non_refundable"
+          },
+          "meal_plan": {
+            "meals": [],
+            "plan": "no_plan"
+          },
+          "payment": {
+            "prepayment_required": true,
+            "timings": [
+              "pay_online_now"
+            ]
+          }
+        },
+        "price": {
+          "base": 16.01,
+          "book": 16.01,
+          "extra_charges": {
+            "conditional": [],
+            "excluded": [
+              {
+                "charge": 23,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 10.0,
+                "total_amount": 1.6,
+                "unit_amount": null
+              },
+              {
+                "charge": 22,
+                "condition": 0,
+                "mode": "percentage",
+                "percentage": 0.0,
+                "total_amount": 0.0,
+                "unit_amount": null
+              }
+            ],
+            "included": []
+          },
+          "total": 17.62
+        },
+        "room": 885633202,
+        "third_party_inventory": false,
+        "inventory": {
+          "third_party": false,
+          "type": "sell"
+        }
+      }
+    ],
+    "url": "https://www.booking.com/hotel/id/happy-penida-hostel-2.html?aid=1142293&checkin=2026-06-02&checkout=2026-06-05&no_rooms=1&group_adults=2&selected_currency=USD"
+  }
+]

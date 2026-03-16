@@ -1,0 +1,57 @@
+{
+  "property_id": 5838593,
+  "gen_id": "GEN-5838593",
+  "property_name": "Achterdeck - Hüs in Lee",
+  "property_slug": "achterdeck-hs-in-lee",
+  "country_code": "DE",
+  "currency": "EUR",
+  "star_rating": 4.0,
+  "review_score": 8.7,
+  "published": true,
+  "data_quality_flag": "GOOD",
+  "total_reviews": 3,
+  "reviews": [
+    {
+      "review_id": 4623324000,
+      "review_date": "2023-05-23",
+      "review_year": 2023,
+      "score": 8.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": "Viel zu viele Mails im Vorfeld\r\nUnter der angegebenen Telefonnummer niemanden erreicht, Rückruf ein Tag später",
+      "reviewer_name": "Andreas",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 4623632077,
+      "review_date": "2023-05-26",
+      "review_year": 2023,
+      "score": 9.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Stefan",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "family_with_children"
+    },
+    {
+      "review_id": 5015334860,
+      "review_date": "2024-04-05",
+      "review_year": 2024,
+      "score": 9.0,
+      "language": "de",
+      "summary": null,
+      "positive": null,
+      "negative": null,
+      "reviewer_name": "Otzelberger",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "82b2c305-4cb1-4405-932e-fbe6f24fd12d",
+  "location" : "/home/w3e39/Downloads/property_pipeline/warehouse/property_db/rental_property",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1773644686943,
+  "last-column-id" : 13,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : true,
+      "type" : "string"
+    }, {
+      "id" : 2,
+      "name" : "feed_provider_id",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 3,
+      "name" : "property_name",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "property_slug",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "country_code",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "currency",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "usd_price",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 8,
+      "name" : "star_rating",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 9,
+      "name" : "review_score",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 10,
+      "name" : "commission",
+      "required" : false,
+      "type" : "double"
+    }, {
+      "id" : 11,
+      "name" : "meal_plan",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 12,
+      "name" : "published",
+      "required" : false,
+      "type" : "boolean"
+    }, {
+      "id" : 13,
+      "name" : "data_quality_flag",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ {
+      "name" : "country_code",
+      "transform" : "identity",
+      "source-id" : 5,
+      "field-id" : 1000
+    } ]
+  } ],
+  "last-partition-id" : 1000,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "w3e39",
+    "write.format.default" : "parquet",
+    "write.parquet.compression-codec" : "snappy"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}

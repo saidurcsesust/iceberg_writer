@@ -54,9 +54,8 @@ from logger import log, flush_logs
 from pipeline.transform import (
     JOINED_RENTAL_GROUP_COLUMNS,
     aggregate_reviews_per_property,
-    deduplicate_reviews,
+    deduplicate_joined_rental_reviews,
 )
-from pipeline.json_generator import generate_json_files
 from snapshot import expire_snapshots, remove_orphan_files
 
 _OUTPUT_DIR = config.OUTPUT_FINAL_JSON
@@ -67,14 +66,14 @@ os.makedirs(_OUTPUT_DIR, exist_ok=True)
 # 1.  Load both Iceberg tables
 # -----------------------------------------------------------------------------
 def load_tables(spark: SparkSession) -> tuple[DataFrame, DataFrame]:
-    df_rental  = spark.table(config.ICEBERG_PROPERTY_TABLE)
+    df_rental  = spark.table(config.ICEBERG_RENTALS_TABLE)
     df_reviews = spark.table(config.ICEBERG_REVIEWS_TABLE)
     log("READ", "Tables loaded",
         rental_rows=df_rental.count(), reviews_rows=df_reviews.count())
     return df_rental, df_reviews
 
 
-# -----------------------------------------------------------------------------
+# --------------------------------------------------- --------------------------
 # 2.  Join
 #     rental_property  INNER JOIN  property_reviews
 #     Rename shared columns on the reviews side to avoid ambiguity.
@@ -96,6 +95,63 @@ def join_tables(df_rental: DataFrame, df_reviews: DataFrame) -> DataFrame:
 
     log("JOIN", "Join complete", rows=df_joined.count())
     return df_joined
+
+
+# -----------------------------------------------------------------------------
+# 3.  RDD  -->  Row  -->  dict  -->  JSON file
+# -----------------------------------------------------------------------------
+def _joined_row_to_dict(row) -> dict:
+    reviews = [
+        {
+            "review_id":               r.review_id,
+            "review_date":             r.review_date,
+            "review_year":             r.review_year,
+            "score":                   r.review_individual_score,
+            "language":                r.review_language,
+            "summary":                 r.review_summary,
+            "positive":                r.review_positive,
+            "negative":                r.review_negative,
+            "reviewer_name":           r.reviewer_name,
+            "reviewer_country":        r.reviewer_country,
+            "reviewer_travel_purpose": r.reviewer_travel_purpose,
+            "reviewer_type":           r.reviewer_type,
+        }
+        for r in (row.reviews or [])
+    ]
+
+    return {
+        "id":                row.id,
+        "feed_provider_id":  row.feed_provider_id,
+        "property_name":     row.property_name,
+        "property_slug":     row.property_slug,
+        "country_code":      row.country_code,
+        "currency":          row.currency,
+        "usd_price":         row.usd_price,
+        "star_rating":       row.star_rating,
+        "review_score":      row.review_score,
+        "commission":        row.commission,
+        "meal_plan":         row.meal_plan,
+        "published":         row.published,
+        "data_quality_flag": row.data_quality_flag,
+        "total_reviews":     len(reviews),
+        "reviews":           reviews,
+    }
+
+
+def _row_to_file(row) -> str:
+    doc = _joined_row_to_dict(row)
+    safe_id = str(row.id).replace("/", "_").replace("\\", "_")
+    out_path = os.path.join(_OUTPUT_DIR, f"{safe_id}.json")
+    with open(out_path, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, ensure_ascii=False, indent=2, default=str)
+    return out_path
+
+
+def generate_json_files(df_agg: DataFrame) -> list[str]:
+    log("WRITE", "Generating JSON files", output_dir=_OUTPUT_DIR)
+    written = df_agg.rdd.map(_row_to_file).collect()
+    log("WRITE", "JSON generation complete", files_written=len(written))
+    return written
 
 
 # -----------------------------------------------------------------------------
@@ -122,10 +178,10 @@ def run() -> None:
     spark = build_spark("PropertyJoiner")
 
     df_rental, df_reviews   = load_tables(spark)
-    df_reviews_clean        = deduplicate_reviews(df_reviews)
-    df_joined               = join_tables(df_rental, df_reviews_clean)
+    df_joined               = join_tables(df_rental, df_reviews)
+    df_joined_dedup         = deduplicate_joined_rental_reviews(df_joined)
     df_agg                  = aggregate_reviews_per_property(
-        df_joined, JOINED_RENTAL_GROUP_COLUMNS, "id"
+        df_joined_dedup, JOINED_RENTAL_GROUP_COLUMNS, "id"
     )
     written                 = generate_json_files(df_agg)
 

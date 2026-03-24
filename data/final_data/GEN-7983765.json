@@ -15,18 +15,18 @@
   "total_reviews": 3,
   "reviews": [
     {
-      "review_id": 5100765275,
-      "review_date": "2024-11-04",
-      "review_year": 2024,
-      "score": 7.0,
+      "review_id": 3251437032,
+      "review_date": "2023-08-07",
+      "review_year": 2023,
+      "score": 8.0,
       "language": "de",
       "summary": null,
-      "positive": "Perfekte Lage. Die Wohnung ist ordentlich und auch gemütlich eingerichtet.",
+      "positive": null,
       "negative": null,
-      "reviewer_name": "Patrick",
+      "reviewer_name": "Christian",
       "reviewer_country": "de",
       "reviewer_travel_purpose": "leisure",
-      "reviewer_type": "solo_traveller"
+      "reviewer_type": "family_with_children"
     },
     {
       "review_id": 3880465595,
@@ -43,18 +43,18 @@
       "reviewer_type": "family_with_children"
     },
     {
-      "review_id": 3251437032,
-      "review_date": "2023-08-07",
-      "review_year": 2023,
-      "score": 8.0,
+      "review_id": 5100765275,
+      "review_date": "2024-11-04",
+      "review_year": 2024,
+      "score": 7.0,
       "language": "de",
       "summary": null,
-      "positive": null,
+      "positive": "Perfekte Lage. Die Wohnung ist ordentlich und auch gemütlich eingerichtet.",
       "negative": null,
-      "reviewer_name": "Christian",
+      "reviewer_name": "Patrick",
       "reviewer_country": "de",
       "reviewer_travel_purpose": "leisure",
-      "reviewer_type": "family_with_children"
+      "reviewer_type": "solo_traveller"
     }
   ]
 }

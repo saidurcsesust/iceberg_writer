@@ -11,10 +11,7 @@ Steps
   2. reviews_writer  — read property.json + reviews.json
                        → write property_reviews Iceberg table
 
-  3. json_generator  — read property_reviews Iceberg table
-                       → write data/property_data/GEN-<id>.json
-
-  4. property_joiner — join rental_property × property_reviews
+  3. property_joiner — join rental_property × property_reviews
                        → write data/final_data/GEN-<id>.json
 
 Usage
@@ -27,7 +24,6 @@ from logger import log, flush_logs
 import config
 from pipeline.rental_writer import run as run_rental_writer
 from pipeline.reviews_writer import run as run_reviews_writer
-from pipeline.json_generator import run as run_json_generator
 from pipeline.property_joiner import run as run_property_joiner
 
 
@@ -40,10 +36,7 @@ def main() -> None:
     log("STEP", "Step 2 — reviews_writer")
     run_reviews_writer()
 
-    log("STEP", "Step 3 — json_generator")
-    run_json_generator()
-
-    log("STEP", "Step 4 — property_joiner")
+    log("STEP", "Step 3 — property_joiner")
     run_property_joiner()
 
     log("DONE", "Full pipeline complete")

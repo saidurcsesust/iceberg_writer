@@ -15,20 +15,6 @@
   "total_reviews": 2,
   "reviews": [
     {
-      "review_id": 5226731919,
-      "review_date": "2025-10-26",
-      "review_year": 2025,
-      "score": 10.0,
-      "language": "en-gb",
-      "summary": "No hesitation in recommending Cotswold 2 to anyone very good",
-      "positive": "Great location, great views of the area all in such peaceful surroundings, accommodation and Hospitality excellent if you want a relaxing peaceful break this is for you",
-      "negative": "Nothing",
-      "reviewer_name": "Martin",
-      "reviewer_country": "es",
-      "reviewer_travel_purpose": "business",
-      "reviewer_type": "solo_traveller"
-    },
-    {
       "review_id": 5193200611,
       "review_date": "2025-08-08",
       "review_year": 2025,
@@ -39,6 +25,20 @@
       "negative": "The oven was either broke or maybe I just didn't press the right button.",
       "reviewer_name": "Cameron",
       "reviewer_country": "gb",
+      "reviewer_travel_purpose": "business",
+      "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5226731919,
+      "review_date": "2025-10-26",
+      "review_year": 2025,
+      "score": 10.0,
+      "language": "en-gb",
+      "summary": "No hesitation in recommending Cotswold 2 to anyone very good",
+      "positive": "Great location, great views of the area all in such peaceful surroundings, accommodation and Hospitality excellent if you want a relaxing peaceful break this is for you",
+      "negative": "Nothing",
+      "reviewer_name": "Martin",
+      "reviewer_country": "es",
       "reviewer_travel_purpose": "business",
       "reviewer_type": "solo_traveller"
     }

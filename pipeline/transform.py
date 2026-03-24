@@ -9,10 +9,7 @@ from __future__ import annotations
 from pyspark.sql import DataFrame
 from pyspark.sql import functions as F
 from pyspark.sql.types import (
-    BooleanType,
     DoubleType,
-    IntegerType,
-    LongType,
     StringType,
 )
 
@@ -63,22 +60,10 @@ def _preferred_name_column(df: DataFrame) -> F.Column:
     return F.coalesce(*name_cols) if len(name_cols) > 1 else name_cols[0]
 
 
-def _make_slug(col: F.Column, ascii_only: bool = False) -> F.Column:
-    if ascii_only:
-        return F.lower(F.regexp_replace(F.trim(col), r"[^a-zA-Z0-9]+", "-"))
 
-    return (
-        F.regexp_replace(
-            F.regexp_replace(
-                F.regexp_replace(
-                    F.regexp_replace(F.trim(F.lower(col)), r"[^\w\s-]", ""),
-                    r"[\s_]+", "-"),
-                r"-{2,}", "-"),
-            r"^-|-$", "")
-    )
 
 def rental_extract_details(df: DataFrame) -> DataFrame:
-    """Flatten property.json → source_id, property_name, country_code,
+    """Flatten property.json --> source_id, property_name, country_code,
     currency, star_rating, review_score."""
     log("EXTRACT", "Extracting details fields")
 
@@ -93,7 +78,7 @@ def rental_extract_details(df: DataFrame) -> DataFrame:
 
 
 def rental_extract_search(df: DataFrame) -> DataFrame:
-    """Flatten search.json → search_id, usd_price, commission_pct,
+    """Flatten search.json --> search_id, usd_price, commission_pct,
     meal_plan, deep_link_url, search_currency."""
     log("EXTRACT", "Extracting search fields")
     return df.select(
@@ -122,61 +107,6 @@ def rental_deduplicate(df: DataFrame, key: str) -> DataFrame:
     log("DEDUP", f"Deduplicated on '{key}'", removed=before - df_dedup.count())
     return df_dedup
 
-
-def rental_join_details_search(
-    details_df: DataFrame, search_df: DataFrame
-) -> tuple[DataFrame, DataFrame]:
-    """Inner join + left-anti join on source_id == search_id."""
-    log("JOIN", "Joining details × search")
-    matched = details_df.join(
-        search_df, details_df["source_id"] == search_df["search_id"], how="inner"
-    )
-    unmatched = details_df.join(
-        search_df, details_df["source_id"] == search_df["search_id"], how="left_anti"
-    )
-    log("JOIN", "Join complete", matched=matched.count(), unmatched=unmatched.count())
-    return matched, unmatched
-
-
-def rental_build_final_output(matched_df: DataFrame) -> tuple[DataFrame, int]:
-    """Produce the 13-column standardized DataFrame + data_quality_flag."""
-    log("TRANSFORM", "Building final output")
-    defaulted = matched_df.filter(F.col("usd_price").isNull()).count()
-
-    df = matched_df.select(
-        F.concat_ws("-", F.lit("GEN"), F.col("source_id")).alias("id"),
-        F.col("source_id").alias("feed_provider_id"),
-        F.col("property_name"),
-        _make_slug(F.col("property_name"), ascii_only=True).alias("property_slug"),
-        F.col("country_code"),
-        F.coalesce(F.col("currency"), F.lit(config.DEFAULT_CURRENCY)).alias("currency"),
-        F.coalesce(F.col("usd_price"), F.lit(config.DEFAULT_USD_PRICE))
-         .cast(DoubleType()).alias("usd_price"),
-        F.coalesce(F.col("star_rating"), F.lit(config.DEFAULT_STAR_RATING))
-         .cast(DoubleType()).alias("star_rating"),
-        F.coalesce(F.col("review_score"), F.lit(config.DEFAULT_REVIEW_SCORE))
-         .cast(DoubleType()).alias("review_score"),
-        F.col("commission_pct").alias("commission"),
-        F.col("meal_plan"),
-        F.lit(config.DEFAULT_PUBLISHED).cast(BooleanType()).alias("published"),
-    ).withColumn(
-        "data_quality_flag",
-        F.when(
-            F.col("property_name").isNull()
-            | F.col("usd_price").isNull()
-            | (F.length(F.col("country_code")) != 2),
-            F.lit("NEEDS_REVIEW"),
-        ).otherwise(F.lit("GOOD")),
-    )
-
-    log(
-        "TRANSFORM",
-        "Final output ready",
-        rows=df.count(),
-        columns=len(df.columns),
-        defaulted_prices=defaulted,
-    )
-    return df, defaulted
 
 
 # -----------------------------------------------------------------------------
@@ -228,84 +158,6 @@ def reviews_flatten_reviews(df: DataFrame) -> DataFrame:
     )
 
 
-def reviews_join_and_enrich(df_prop: DataFrame, df_rev: DataFrame) -> DataFrame:
-    """Left-join then add gen_id, slug, country_code, quality flag."""
-    log("JOIN", "Joining properties × reviews")
-    df_joined = df_prop.join(
-        df_rev,
-        df_prop["source_id"] == df_rev["source_id_r"],
-        how="left",
-    )
-    log("JOIN", "Join complete", rows=df_joined.count())
-
-    return (
-        df_joined
-        .withColumn("gen_id", F.concat(F.lit("GEN-"), F.col("source_id").cast("string")))
-        .withColumn("feed_provider_id", F.col("source_id").cast("string"))
-        .withColumn("property_slug", _make_slug(F.col("property_name")))
-        .withColumn("country_code", F.upper(F.col("raw_country")))
-        .withColumn(
-            "currency",
-            F.when(
-                F.col("raw_currency").isNull() | (F.trim(F.col("raw_currency")) == ""),
-                F.lit(config.DEFAULT_CURRENCY),
-            ).otherwise(F.col("raw_currency")),
-        )
-        .withColumn("star_rating", F.coalesce(F.col("star_rating_raw"), F.lit(config.DEFAULT_STAR_RATING)))
-        .withColumn("review_score", F.coalesce(F.col("review_score_raw"), F.lit(config.DEFAULT_REVIEW_SCORE)))
-        .withColumn("published", F.lit(True))
-        .withColumn(
-            "data_quality_flag",
-            F.when(
-                F.col("property_name").isNull()
-                | (F.trim(F.col("property_name")) == "")
-                | F.col("country_code").isNull()
-                | (F.col("review_score") == 0.0)
-                | (F.col("star_rating") == 0.0),
-                F.lit("NEEDS_REVIEW"),
-            ).otherwise(F.lit("GOOD")),
-        )
-    )
-
-
-def reviews_prepare_for_iceberg(df: DataFrame) -> DataFrame:
-    """Select final columns, add review_year partition column."""
-    return (
-        df
-        .withColumn(
-            "review_year",
-            F.when(
-                F.col("review_date").isNotNull(),
-                F.year(F.to_date(F.col("review_date"), "yyyy-MM-dd")),
-            ).otherwise(F.lit(None).cast("int")),
-        )
-        .select(
-            F.col("source_id").cast(LongType()).alias("property_id"),
-            F.col("gen_id"),
-            F.col("property_name"),
-            F.col("property_slug"),
-            F.col("country_code"),
-            F.col("currency"),
-            F.col("star_rating").cast(DoubleType()),
-            F.col("review_score").cast(DoubleType()),
-            F.col("published").cast(BooleanType()),
-            F.col("data_quality_flag"),
-            F.col("review_id").cast(LongType()),
-            F.col("review_date"),
-            F.col("review_year").cast(IntegerType()),
-            F.col("review_individual_score").cast(DoubleType()),
-            F.col("review_language"),
-            F.col("review_summary"),
-            F.col("review_positive"),
-            F.col("review_negative"),
-            F.col("reviewer_name"),
-            F.col("reviewer_country"),
-            F.col("reviewer_travel_purpose"),
-            F.col("reviewer_type"),
-        )
-    )
-
-
 # -----------------------------------------------------------------------------
 # Json generator transformations
 # -----------------------------------------------------------------------------
@@ -334,6 +186,17 @@ def deduplicate_reviews(df: DataFrame) -> DataFrame:
         log("DEDUP", "Removed duplicate review rows", dropped=dropped)
     else:
         log("DEDUP", "No duplicates found", rows=df_dedup.count())
+    return df_dedup
+
+
+def deduplicate_joined_rental_reviews(df: DataFrame) -> DataFrame:
+    before = df.count()
+    df_dedup = df.dropDuplicates(["id", "review_id"])
+    dropped = before - df_dedup.count()
+    if dropped:
+        log("DEDUP", "Removed duplicate joined rental-review rows", dropped=dropped)
+    else:
+        log("DEDUP", "No joined duplicates found", rows=df_dedup.count())
     return df_dedup
 
 

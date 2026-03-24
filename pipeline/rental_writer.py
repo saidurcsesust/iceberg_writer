@@ -41,9 +41,14 @@ from pipeline.transform import (
     rental_extract_search,
     rental_clean,
     rental_deduplicate,
-    rental_join_details_search,
-    rental_build_final_output,
+
 )
+from pipeline.join_table import (
+    rental_join_details_search,
+)
+
+from pipeline.modify_column import rental_build_final_output
+
 
 # Iceberg table schema 
 RENTAL_PROPERTY_SCHEMA = StructType([
@@ -105,22 +110,18 @@ def _create_table(spark: SparkSession) -> None:
             'write.parquet.compression-codec' = 'snappy'
         )
     """)
-    log("DDL", "rental_property table ready", table=config.ICEBERG_PROPERTY_TABLE)
+    log("DDL", "rental_property table ready", table=config.ICEBERG_RENTALS_TABLE)
 
-
-# id, feed_provider_id, property_name, property_slug, country_code,
-# currency, usd_price, star_rating, review_score, commission, meal_plan, published}
 
 def write_to_iceberg(spark: SparkSession, df: DataFrame) -> None:
-    # single-file Parquet backup
-    log("WRITE", "Single-file Parquet write", path=config.OUTPUT_FINAL_DIR)
-    df.coalesce(1).write.mode("overwrite").parquet(config.OUTPUT_FINAL_DIR)
-
-    # Iceberg partitioned write
-    ordered_df = df.select([f.name for f in RENTAL_PROPERTY_SCHEMA.fields])
     _create_table(spark)
-    ordered_df.writeTo(config.ICEBERG_PROPERTY_TABLE).overwritePartitions()
-    log("WRITE", "Iceberg write complete", table=config.ICEBERG_PROPERTY_TABLE)
+    (
+        df.writeTo(config.ICEBERG_RENTALS_TABLE)
+          .option("write.format.default", "parquet")
+          .option("fanout-enabled", "true")
+          .append()
+    )
+    log("WRITE", "Iceberg write complete", table=config.ICEBERG_RENTALS_TABLE)
 
 
 # -----------------------------------------------------------------------------

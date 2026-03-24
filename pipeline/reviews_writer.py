@@ -36,7 +36,12 @@ from logger import log, flush_logs
 from pipeline.transform import (
     reviews_flatten_properties,
     reviews_flatten_reviews,
-    reviews_join_and_enrich,
+)
+from pipeline.join_table import (
+    reviews_join_properties_reviews,
+)
+from pipeline.modify_column import (
+    reviews_enrich_joined_data,
     reviews_prepare_for_iceberg,
 )
 
@@ -106,7 +111,8 @@ def run() -> None:
     df_prop_flat = reviews_flatten_properties(df_prop_raw)
     df_rev_flat  = reviews_flatten_reviews(df_rev_raw)
 
-    df_enriched  = reviews_join_and_enrich(df_prop_flat, df_rev_flat)
+    df_joined    = reviews_join_properties_reviews(df_prop_flat, df_rev_flat)
+    df_enriched  = reviews_enrich_joined_data(df_joined)
     df_iceberg   = reviews_prepare_for_iceberg(df_enriched)
 
     write_to_iceberg(spark, df_iceberg)

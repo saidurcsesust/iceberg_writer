@@ -15,20 +15,6 @@
   "total_reviews": 2,
   "reviews": [
     {
-      "review_id": 5059868048,
-      "review_date": "2024-07-30",
-      "review_year": 2024,
-      "score": 10.0,
-      "language": "de",
-      "summary": null,
-      "positive": "Das man alles hat was man braucht in den wohnungen sogar eine Konsole von wii hatten sehr spass.",
-      "negative": "Das es nicht gründlich gereinigt war von spinnen weben .und dreck auf den Fußboden. Sonst war alles inornung.\nUnd werden auch wieder kommen",
-      "reviewer_name": "Sabrina",
-      "reviewer_country": "de",
-      "reviewer_travel_purpose": "leisure",
-      "reviewer_type": "couple"
-    },
-    {
       "review_id": 5058134567,
       "review_date": "2024-07-27",
       "review_year": 2024,
@@ -41,6 +27,20 @@
       "reviewer_country": "de",
       "reviewer_travel_purpose": "business",
       "reviewer_type": "solo_traveller"
+    },
+    {
+      "review_id": 5059868048,
+      "review_date": "2024-07-30",
+      "review_year": 2024,
+      "score": 10.0,
+      "language": "de",
+      "summary": null,
+      "positive": "Das man alles hat was man braucht in den wohnungen sogar eine Konsole von wii hatten sehr spass.",
+      "negative": "Das es nicht gründlich gereinigt war von spinnen weben .und dreck auf den Fußboden. Sonst war alles inornung.\nUnd werden auch wieder kommen",
+      "reviewer_name": "Sabrina",
+      "reviewer_country": "de",
+      "reviewer_travel_purpose": "leisure",
+      "reviewer_type": "couple"
     }
   ]
 }

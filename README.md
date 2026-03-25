@@ -40,7 +40,8 @@ property-pipeline/
 │   └── property_db/
 │       ├── rental_property/
 │       └── property_reviews/
-│
+│       |__ rentals_reviews/
+|
 ├── logs/                            pipeline.jsonl + per-run logs (gitignored)
 ├── .gitignore
 └── README.md

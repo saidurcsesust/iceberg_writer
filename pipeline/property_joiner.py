@@ -203,7 +203,7 @@ def write_to_iceberg(spark: SparkSession, df: DataFrame) -> None:
         df.writeTo(config.ICEBERG_RENTALS_REVIEWS_TABLE)
           .option("write.format.default", "parquet")
           .option("fanout-enabled", "true")
-          .append()
+          .overwritePartitions()
     )
     log("WRITE", "Iceberg write complete", table=config.ICEBERG_RENTALS_REVIEWS_TABLE)
 
@@ -215,7 +215,7 @@ def run_maintenance(spark: SparkSession) -> None:
     log("MAINT", "Running maintenance on both tables")
     db = config.ICEBERG_DATABASE
 
-    for tbl in ("rental_property", "property_reviews"):
+    for tbl in ("rental_property", "property_reviews", "rentals_reviews"):
         table_ref = f"{db}.{tbl}"
         expire_snapshots(
             spark,

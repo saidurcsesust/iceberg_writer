@@ -47,10 +47,14 @@ PARTITION_REVIEWS_2 = "review_year"
 ICEBERG_JAR = "org.apache.iceberg:iceberg-spark-runtime-3.5_2.12:1.5.2"
 
 # ── Maintenance ────────────────────────────────────────────────────────────────
+# Default retention window for snapshot cleanup helpers.
+MAINTENANCE_RETENTION_DAYS = 1
 # None uses snapshot.py's default cutoff of 1 day ago.
 MAINTENANCE_EXPIRE_OLDER_THAN = None
 MAINTENANCE_RETAIN_LAST = 1
 MAINTENANCE_REMOVE_ORPHAN_OLDER_THAN = None
+MAINTENANCE_METADATA_DELETE_AFTER_COMMIT = "true"
+MAINTENANCE_METADATA_PREVIOUS_VERSIONS_MAX = 1
 
 # ── Field defaults ─────────────────────────────────────────────────────────────
 DEFAULT_CURRENCY     = "USD"

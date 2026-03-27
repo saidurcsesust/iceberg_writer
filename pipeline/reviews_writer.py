@@ -93,7 +93,7 @@ def write_to_iceberg(spark: SparkSession, df: DataFrame) -> None:
         df.writeTo(config.ICEBERG_REVIEWS_TABLE)
           .option("write.format.default", "parquet")
           .option("fanout-enabled", "true")
-          .append()
+          .overwritePartitions()
     )
     log("WRITE", "Iceberg write complete", table=config.ICEBERG_REVIEWS_TABLE)
 

@@ -33,6 +33,10 @@ def build_spark(app_name: str, extra_conf: Mapping[str, str] | None = None) -> S
             config.ICEBERG_WAREHOUSE,
         )
         .config("spark.sql.iceberg.write.format.default", "parquet")
+        # Use Kryo for faster JVM-side serialization.
+        .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+        # Enable Arrow optimization for pandas UDFs when available.
+        .config("spark.sql.execution.arrow.pyspark.enabled", "true")
     )
 
     if extra_conf:
